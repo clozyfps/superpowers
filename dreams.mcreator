@@ -1,21 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "PlainOfDreamsBiome",
-      "type": "biome",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plain_of_dreams_biome",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dreams/worldgen/biome/plain_of_dreams_biome.json",
-          "src/main/resources/data/dreams/worldgen/placed_feature/plain_of_dreams_biome_tree.json",
-          "src/main/resources/data/dreams/worldgen/configured_feature/plain_of_dreams_biome_tree.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "WorldOfLightDimension",
       "type": "dimension",
       "compiles": true,
@@ -29,6 +14,21 @@
         ]
       },
       "path": "~/Dimensions"
+    },
+    {
+      "name": "PlainOfDreamsBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plain_of_dreams_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dreams/worldgen/biome/plain_of_dreams_biome.json",
+          "src/main/resources/data/dreams/worldgen/placed_feature/plain_of_dreams_biome_tree.json",
+          "src/main/resources/data/dreams/worldgen/configured_feature/plain_of_dreams_biome_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [],
@@ -42,35 +42,15 @@
     "name": "~",
     "children": [
       {
+        "name": "Gamerules",
+        "children": []
+      },
+      {
         "name": "Procedures",
         "children": []
       },
       {
-        "name": "Mobs",
-        "children": []
-      },
-      {
-        "name": "Biomes",
-        "children": []
-      },
-      {
-        "name": "Dimensions",
-        "children": []
-      },
-      {
-        "name": "Overlays",
-        "children": []
-      },
-      {
-        "name": "Keybinds",
-        "children": []
-      },
-      {
-        "name": "Particles",
-        "children": []
-      },
-      {
-        "name": "Potions",
+        "name": "Blocks",
         "children": []
       },
       {
@@ -82,7 +62,23 @@
         "children": []
       },
       {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
         "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Overlays",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       },
       {
@@ -90,15 +86,23 @@
         "children": []
       },
       {
-        "name": "Gamerules",
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Potions",
+        "children": []
+      },
+      {
+        "name": "Keybinds",
         "children": []
       },
       {
         "name": "Commands",
-        "children": []
-      },
-      {
-        "name": "Items",
         "children": []
       }
     ]
