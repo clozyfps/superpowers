@@ -1,25 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Testo",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testo",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/superpowers/item/TestoItem.java",
-          "src/main/resources/assets/superpowers/models/item/testo.json"
-        ]
-      }
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.superpowers.testo": "Test"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
