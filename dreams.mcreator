@@ -29,12 +29,44 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "ClozyTestItem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clozy_test_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dreams/models/item/clozy_test_item.json",
+          "src/main/java/net/mcreator/dreams/item/ClozyTestItemItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BoredTestItem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bored_test_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreams/item/BoredTestItemItem.java",
+          "src/main/resources/assets/dreams/models/item/bored_test_item.json"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.dreams.bored_test_item": "Bored Test Item",
+      "item.dreams.clozy_test_item": "Clozy Test Item",
       "biome.dreams.plain_of_dreams_biome": "Plain Of Dreams"
     }
   },
@@ -79,7 +111,12 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Projectiles",
