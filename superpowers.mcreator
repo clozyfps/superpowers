@@ -1,0 +1,87 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Overlays",
+        "children": []
+      },
+      {
+        "name": "Keybinds",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Potions",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Damage Sources",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Projectiles",
+        "children": []
+      },
+      {
+        "name": "Gamerules",
+        "children": []
+      },
+      {
+        "name": "Commands",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "superpowers",
+    "modName": "superpowers",
+    "version": "1.0.0",
+    "author": "jayso, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.superpowers",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
