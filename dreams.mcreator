@@ -59,6 +59,41 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "BoredTestProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bored_test_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreams/procedures/BoredTestProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Procedures"
+    },
+    {
+      "name": "ClozyTestProcedure",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clozy_test_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreams/procedures/ClozyTestProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Items/Procedures"
     }
   ],
   "variable_elements": [],
