@@ -1,9 +1,42 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "PlainOfDreamsBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plain_of_dreams_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dreams/worldgen/biome/plain_of_dreams_biome.json",
+          "src/main/resources/data/dreams/worldgen/placed_feature/plain_of_dreams_biome_tree.json",
+          "src/main/resources/data/dreams/worldgen/configured_feature/plain_of_dreams_biome_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WorldOfLightDimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_of_light_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dreams/world/dimension/WorldOfLightDimensionDimension.java",
+          "src/main/resources/data/dreams/dimension/world_of_light_dimension.json",
+          "src/main/resources/data/dreams/dimension_type/world_of_light_dimension.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.dreams.plain_of_dreams_biome": "Plain Of Dreams"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -62,6 +95,10 @@
       },
       {
         "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Items",
         "children": []
       }
     ]
