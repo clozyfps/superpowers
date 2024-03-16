@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.superpowers;
+package net.mcreator.dreams;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -38,12 +38,12 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
-@Mod("superpowers")
-public class SuperpowersMod {
-	public static final Logger LOGGER = LogManager.getLogger(SuperpowersMod.class);
-	public static final String MODID = "superpowers";
+@Mod("dreams")
+public class DreamsMod {
+	public static final Logger LOGGER = LogManager.getLogger(DreamsMod.class);
+	public static final String MODID = "dreams";
 
-	public SuperpowersMod() {
+	public DreamsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 

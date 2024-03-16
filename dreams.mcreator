@@ -67,8 +67,8 @@
     ]
   },
   "workspaceSettings": {
-    "modid": "superpowers",
-    "modName": "superpowers",
+    "modid": "dreams",
+    "modName": "dreams",
     "version": "1.0.0",
     "author": "jayso, MCreator",
     "websiteURL": "https://mcreator.net",
@@ -80,7 +80,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "modElementsPackage": "net.mcreator.superpowers",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.dreams",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202300452316
