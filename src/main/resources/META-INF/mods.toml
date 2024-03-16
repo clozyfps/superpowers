@@ -3,14 +3,14 @@ loaderVersion="[47,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="superpowers"
+modId="dreams"
 version="1.0.0"
-displayName="superpowers"
+displayName="dreams"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="jayso, MCreator"
 
-[[dependencies.superpowers]]
+[[dependencies.dreams]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.20.1]"
